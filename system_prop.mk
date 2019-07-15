@@ -11,6 +11,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.camera.hal.debug.mask=0 \
     ro.camera.sensors=ov8865_q8v18a,ov2680_skuhf,ov2680_5987fhq
 
+# Charger
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.charger.enable_suspend=true
+
 # Factory Reset Protection
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.frp.pst=/dev/block/platform/soc.0/7824900.sdhci/by-name/config
