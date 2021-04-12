@@ -116,7 +116,6 @@ PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0-impl \
     calmodule.cfg \
     libcalmodule_common \
-    sensors.msm8916 \
     sensors.wt88047
 
 PRODUCT_COPY_FILES += \
